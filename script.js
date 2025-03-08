@@ -1,9 +1,12 @@
 // Preloader Animation
+console.log("Preloader script loaded"); // Check if script is loaded
+
 gsap.to(".preloader", {
   opacity: 0,
-  duration: .5,
-  delay: .5, // Adjust delay as needed
+  duration: 0.5,
+  delay: 1,
   onComplete: () => {
+    console.log("Preloader animation complete"); // Check if animation completes
     document.querySelector(".preloader").style.display = "none";
   },
 });

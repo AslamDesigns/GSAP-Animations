@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSAP Animation Showcase</title>
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Header Section -->
+  <header class="section header-section">
+    <div class="intro">
+      <h1 id="heading">GSAP Animations Showcase By Aslam</h1>
+      <p id="description"></p>
+    </div>
+  </header>
+
+  <!-- Animation Showcase Section -->
+  <section class="section animation-section">
+    <h2>Animation Showcase</h2>
+    <div class="animation-container">
+      <div class="box" id="box1"></div>
+      <p class="animation-description">Box 1: Moves horizontally and rotates.</p>
+    </div>
+    <div class="animation-container">
+      <div class="box" id="box2"></div>
+      <p class="animation-description">Box 2: Bounces vertically and scales.</p>
+    </div>
+    <div class="animation-container">
+      <div class="box" id="box3"></div>
+      <p class="animation-description">Box 3: Moves horizontally in the opposite direction and rotates.</p>
+    </div>
+  </section>
+
+  <!-- Button & Hover Effects Section -->
+  <section class="section button-section">
+    <h2>Button & Hover Effects</h2>
+    <div class="animation-container">
+      <button class="elastic-button">Click Me!</button>
+      <p class="animation-description">Elastic Button: Squishes when clicked.</p>
+    </div>
+    <div class="animation-container">
+      <button class="hover-button">Hover Me!</button>
+      <p class="animation-description">Hover Button: Glows and scales on hover.</p>
+    </div>
+  </section>
+
+<!-- Hover Zoom with Depth Section -->
+<section class="section hover-zoom-section">
+  <h2>Hover Zoom with Depth</h2>
+  <div class="image-container">
+    <img src="https://pngimg.com/uploads/laptop/small/laptop_PNG101762.png" alt="Laptop">
+  </div>
+  <p class="animation-description">Hover Zoom: Images slightly zoom and tilt on hover.</p>
+</section>
+
+<!-- 3D Flip Effect Section -->
+<section class="section flip-effect-section">
+  <h2>3D Flip Effect</h2>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://pngimg.com/uploads/laptop/small/laptop_PNG101775.png" alt="Laptop">
+      </div>
+      <div class="flip-card-back">
+        <p>3D Flip: Images/cards rotate in 3D on hover.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SVG Morphing Section -->
+<section class="section svg-morph-section">
+  <h2>SVG Morphing Animation</h2>
+  <div class="svg-container">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <!-- Starting Shape: Circle -->
+      <path
+        id="morph-path"
+        d="M100,20 a80,80 0 1,0 0,160 a80,80 0 1,0 0,-160"
+        fill="#64ffda"
+      />
+    </svg>
+  </div>
+  <p class="animation-description">SVG Morphing: A random shape morphs into a star.</p>
+</section>
+
+</body>
+</html>
